@@ -11,7 +11,8 @@ body {
     color: white;
     justify-content: center;
     background-color: rgb(120, 176, 37);
-    margin: 0 1rem;
+    margin: 0;
+    padding: 0.5rem;
 
 }
 
@@ -20,9 +21,10 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    margin: 0 1rem;
-    background-color: rgb(174, 215, 111);
-
+    background-color: rgb(144, 178, 93);
+    background-image: url(/assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .shoptitle {
@@ -53,20 +55,47 @@ a {
 
 content {
     border: 1px black solid;
+    /* margin: 2rem; */
 }
 
 .type1 {
-    background-color: blanchedalmond;
+    background-color: white;
     border: 1px black solid;
+    margin: 1rem;
+    color: white;
+    padding: 1rem;
+    max-width: 500px;
+
+}
+
+.t1title {
+    background-color: rgb(144, 178, 93);
+    padding: 0.1rem 2rem;
+    font-family: "Amaranth", sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.t1title h3 {
+    font-size: 2rem;
+}
+
+.type1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
 
 }
 
 .type2 {
     background-color: white;
     border: 1px black solid;
+    margin: 1rem;
+
 }
 
 .type3 {
     background-color: white;
     border: 1px black solid;
+    margin: 1rem;
 }
