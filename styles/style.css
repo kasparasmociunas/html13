@@ -1,18 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: rgb(241, 241, 241);
     font-family: "Open Sans", sans-serif;
 
+}
+
+h3 {
+    margin: 0px;
 }
 
 .banner {
     display: flex;
     color: white;
     justify-content: center;
-    background-color: rgb(120, 176, 37);
+    background-color: rgb(135, 168, 44);
     margin: 0;
     padding: 0.5rem;
+    font-size: 0.8rem;
+
 
 }
 
@@ -46,34 +52,37 @@ nav {
 
 a {
     font-size: 1rem;
-    /* font-family: "Amaranth", sans-serif; */
+
     color: white;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-content {
-    border: 1px black solid;
-    /* margin: 2rem; */
+
+content h3 {
+    font-family: "Amaranth", sans-serif;
 }
 
 .type1 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    border: 1px black solid;
-    margin: 1rem;
+    margin: 4rem;
     color: white;
     padding: 1rem;
     max-width: 500px;
+    max-height: 500px;
+    justify-content: center;
+    box-shadow: 0px 0px 3px -1px #000000;
 
 }
 
 .t1title {
     background-color: rgb(144, 178, 93);
-    padding: 0.1rem 2rem;
-    font-family: "Amaranth", sans-serif;
+    padding: 1rem 2rem;
+    font-size: ;
     letter-spacing: 2px;
-
 }
 
 .t1title h3 {
@@ -88,14 +97,93 @@ content {
 }
 
 .type2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
-    border: 1px black solid;
-    margin: 1rem;
+    margin: 4rem;
+    padding: 1rem;
+    max-width: 500px;
+    box-shadow: 0px 0px 3px -1px #000000;
+    color: rgb(96, 96, 96);
+}
+
+.type2 h4 {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.type2 h3 {
+    align-self: flex-start;
+    font-size: x-large;
 
 }
 
 .type3 {
+    color: black;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.type3 p {
+    color: darkgray;
+    font-weight: 500;
+}
+
+
+
+
+.toptea {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px -1px #000000;
+    margin: 4rem;
     background-color: white;
-    border: 1px black solid;
-    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.toptea h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.toptea img {
+    display: flex;
+    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tt1,
+#tt2,
+#tt3 {
+    display: flex;
+    color: white;
+    align-self: stretch;
+    padding: 1rem;
+    align-items: center;
+    font-family: "Amaranth", sans-serif;
+
+}
+
+#tt1 {
+    background-color: rgb(221, 81, 109);
+
+}
+
+#tt2 {
+    background-color: orange;
+}
+
+#tt3 {
+    background-color: turquoise;
+}
+
+.productimg {
+    display: flex;
+    width: 70%;
+    align-self: center;
 }
